@@ -2,7 +2,7 @@ FROM alpine:3.12
 
 MAINTAINER Kamran Azeem & Henrik Høegh (kaz@praqma.net, heh@praqma.net)
 
-EXPOSE 80 443
+EXPOSE 8080 8443
 
 # Install some tools in the container and generate self-signed SSL certificates.
 # Packages are listed in alphabetical order, for ease of readability and ease of maintenance.
